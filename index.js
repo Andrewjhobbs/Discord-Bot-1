@@ -260,7 +260,7 @@ process.on("SIGTERM", exitHandler.bind(null, { exit: true }));
 process.on("uncaughtException", exitHandler.bind(null, { exit: true }));
 
 try { // Login to discord client
-    client.login(discordtoken)
+    client.login(NTU1MjEzNjkzMTIyNzczMDIy.D2n75g.fL0P2kuqnznAQ6wqy2U5Wfnd1XE)
 } catch (err) {
     logger.error(`Error in Discord login: ${err}`);
 }
